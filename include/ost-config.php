@@ -45,6 +45,7 @@ define('DBHOST','%CONFIG-DBHOST');
 define('DBNAME','%CONFIG-DBNAME');
 define('DBUSER','%CONFIG-DBUSER');
 define('DBPASS','%CONFIG-DBPASS');
+define('DBSSLCA','/etc/ssl/certs/ca-certificates.crt');
 
 # Database TCP/IP Connect Timeout (default: 3 seconds)
 # Timeout is important when DBHOST has multiple proxies to try
