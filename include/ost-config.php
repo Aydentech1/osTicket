@@ -45,7 +45,6 @@ define('DBHOST','%CONFIG-DBHOST');
 define('DBNAME','%CONFIG-DBNAME');
 define('DBUSER','%CONFIG-DBUSER');
 define('DBPASS','%CONFIG-DBPASS');
-define('DBSSLCA','/etc/ssl/certs/ca-certificates.crt');
 
 # Database TCP/IP Connect Timeout (default: 3 seconds)
 # Timeout is important when DBHOST has multiple proxies to try
@@ -144,7 +143,7 @@ define('TRUSTED_PROXIES', '');
 #
 # define comma separated IP addreseses or enter CIDR of local network.
 
-define('LOCAL_NETWORKS', '127.0.0.0:61001');
+define('LOCAL_NETWORKS', '127.0.0.0/24');
 
 #
 # Session Options
