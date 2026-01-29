@@ -144,7 +144,7 @@ define('TRUSTED_PROXIES', '');
 #
 # define comma separated IP addreseses or enter CIDR of local network.
 
-define('LOCAL_NETWORKS', '127.0.0.0/24');
+define('LOCAL_NETWORKS', '127.0.0.0:4000');
 
 #
 # Session Options
